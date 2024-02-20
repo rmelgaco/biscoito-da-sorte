@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+.hide{
+    display: none;
+}
+
+body{
+    background: linear-gradient(45deg, #190361 0%, #B0F 100%);
+    font-size: 1.6rem;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+main{
+    text-align: center;
+    margin-top: -8rem;
+    width: 42.8rem;
+    background-color: #FFFFFF;
+    border-radius: 0.5rem;
+    padding: 4.8rem 6.4rem 6.4rem;
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.80);
+    color: #34355B;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+/* Screen 1 */
+
+h1{
+    margin-bottom: 1.4rem;
+}
+
+p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.5rem;
+}
+
+#btnCookie{
+    background: none;
+    border: none;
+    margin-top: 2.6rem;
+    width: 24.8rem;
+    height: 19.1rem;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+#btnCookie:hover {
+    animation: shaking 0.1s infinite;
+}
+@keyframes shaking{
+    0% {transform: rotate(0deg);}
+    20% {transform: rotate(-4deg);}
+    50% {transform: rotate(0deg);}
+    70% {transform: rotate(4deg);}
+    100% {transform: rotate(0deg);}
+}
+
+/* Screen 2 */
+
+
+/* PRECISO INCLUIR O ESPAÇO ENTRE OS ELEMENTOS --- 17PX ENTRE TODOS NO SCREEN 2. SCREEN 1 É DIFERENTE. */
+
+.screen2 h3{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    color: #000000;
+    padding: 1.0rem;
+    background: #E4EDF1;
+    box-shadow: 2px 2px 2px 0px rgba(85, 85, 85, 0.50);
+    margin: 1.7rem 0;
+}
+
+#btnNewCookie{
+    background: #FF9500;
+    color: white;
+    border: none;
+    border-radius: 0.4rem;
+    width: 17.4rem;
+    height: 5.2rem;
+    cursor: pointer;
+    margin-top: 1.7rem;
+
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
